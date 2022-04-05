@@ -11,9 +11,10 @@ from pydantic import BaseModel
 from jinja2 import Environment, PackageLoader, select_autoescape
 from jinja2 import Template
 
-def run_inkscape(input: str, output: str):
-    click.echo(f"Running inkscape to produce {output}")
-    subprocess.run(['inkscape', '--export-type=png', f'--export-filename={output}', input])
+def produce_png(input: str, output: str):
+    click.echo(f"Producing {output}...")
+    subprocess.run(['rsvg-convert', input, '-o', output])
+    click.echo(f"Produced {output}!")
 
 
 class DigitalMeetup(BaseModel):
@@ -55,11 +56,11 @@ def handle_digital_meetup(digital_meetup: DigitalMeetup) -> List[Output]:
             fp.write(rendered.encode('utf-8'))
 
             output_filename = f"{parent_dir}digital-meetup-{instance.year}-{instance.date}-{instance.time}.png"
-            run_inkscape(fp.name, output_filename)
+            produce_png(fp.name, output_filename)
 
             outputs.append(Output(
                 title=f"Digital Meetup ({instance.year}) {instance.date} @ {instance.time}",
-                path=output_filename.lstrip("./build")
+                path=f"./{output_filename.lstrip('./build')}"
             ))
 
     return outputs
