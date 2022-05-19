@@ -18,7 +18,7 @@ def produce_png(input: str, output: str):
     click.echo(f"Produced {output}!")
 
 
-class DigitalMeetup(BaseModel):
+class Meetup(BaseModel):
     class Meta(BaseModel):
         template: str
 
@@ -32,7 +32,8 @@ class DigitalMeetup(BaseModel):
 
 
 class Posters(BaseModel):
-    digital_meetup: DigitalMeetup
+    digital_meetup: Meetup
+    element_meetup: Meetup
 
 
 class Output(BaseModel):
@@ -40,26 +41,26 @@ class Output(BaseModel):
     path: str
 
 
-def handle_digital_meetup(digital_meetup: DigitalMeetup) -> List[Output]:
-    with open(digital_meetup.meta.template, "r") as reader:
+def handle_meetup(prefix: str, meetup: Meetup) -> List[Output]:
+    with open(meetup.meta.template, "r") as reader:
         template = reader.read()
 
     outputs = []
 
-    for instance in digital_meetup.instances:
+    for instance in meetup.instances:
         with tempfile.NamedTemporaryFile(suffix=".svg") as fp:
             rendered = chevron.render(template=template, data=instance)
-            parent_dir = f"./build/{instance.year}/digital-meetup/"
+            parent_dir = f"./build/{instance.year}/{prefix}/"
             Path(parent_dir).mkdir(parents=True, exist_ok=True)
 
             fp.write(rendered.encode("utf-8"))
 
-            output_filename = f"{parent_dir}digital-meetup-{instance.year}-{instance.date}-{instance.time}.png"
+            output_filename = f"{parent_dir}{prefix}-{instance.year}-{instance.date}-{instance.time}.png"
             produce_png(fp.name, output_filename)
 
             outputs.append(
                 Output(
-                    title=f"Digital Meetup ({instance.year}) {instance.date} @ {instance.time}",
+                    title=f"{prefix} ({instance.year}) {instance.date} @ {instance.time}",
                     path=f"./{output_filename.lstrip('./build')}",
                 )
             )
@@ -79,7 +80,7 @@ def socials():
 
     posters = Posters(**posters_toml)
 
-    outputs = [*handle_digital_meetup(posters.digital_meetup)]
+    outputs = [*handle_meetup("digital-meetup", posters.digital_meetup), *handle_meetup("element-meetup", posters.element_meetup)]
 
     template = Template(
         """
