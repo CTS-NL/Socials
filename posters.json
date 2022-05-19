@@ -30,5 +30,17 @@
         "time": "7pm"
       }
     ]
+  },
+  "element_meetup": {
+    "meta": {
+      "template": "./templates/element-meetup-poster.svg"
+    },
+    "instances": [
+      {
+        "year": "2022",
+        "date": "May 19th",
+        "time": "7pm"
+      }
+    ]
   }
 }
