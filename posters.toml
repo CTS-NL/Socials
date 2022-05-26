@@ -17,5 +17,11 @@ template = "./templates/element-meetup-poster.svg"
 [element_meetup]
 instances = [
   {year = "2022", date = "May 19th", time = "7pm"},
+  {year = "2022", date = "May 26th", time = "7pm"},
+  {year = "2022", date = "June 2nd", time = "7pm"},
+  {year = "2022", date = "June 9th", time = "7pm"},
+  {year = "2022", date = "June 16th", time = "7pm"},
+  {year = "2022", date = "June 23rd", time = "7pm"},
+  {year = "2022", date = "June 30th", time = "7pm"},
 ]
 
