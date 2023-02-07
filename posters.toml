@@ -45,3 +45,12 @@ instances = [
   {year = "2022", date = "November 24th", time = "7pm"},
 ]
 
+[qeii_meetup.meta]
+template = "./templates/qeii-meetup-poster.svg"
+
+[qeii_meetup]
+instances = [
+  {year = "", date = "Every Thursday", time = "7pm"},
+  {year = "2023", date = "Feburary 9th", time = "7pm"},
+]
+
