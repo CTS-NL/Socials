@@ -52,5 +52,6 @@ template = "./templates/qeii-meetup-poster.svg"
 instances = [
   {year = "", date = "Every Thursday", time = "7pm"},
   {year = "2023", date = "Feburary 9th", time = "7pm"},
+  {year = "2023", date = "Feburary 16th", time = "7pm"},
 ]
 
