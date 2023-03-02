@@ -130,7 +130,7 @@
        stroke-width="1"
        fill="none"
        fill-rule="evenodd"
-       transform="matrix(0.73333333,0,0,0.73333333,38.379888,48.752254)">
+       transform="matrix(0.73333333,0,0,0.73333333,58.379888,48.752254)">
       <rect
          id="Rectangle-4"
          fill="#222222"
@@ -164,67 +164,67 @@
     <text
        xml:space="preserve"
        id="text16072"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.2;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16074);fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(1,0,0,1.0015191,-24.053443,129.10146)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.2;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16074);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(1,0,0,1.0015191,-4.053443,129.10146)"
        x="1129.8392"
        y="0"><tspan
          x="60"
          y="435.16667"
-         id="tspan474"><tspan
+         id="tspan538"><tspan
            style="font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal'"
-           id="tspan470">Join us on Slack for more details</tspan><tspan
+           id="tspan534">Join us on Slack for more details</tspan><tspan
            style="font-weight:500;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Medium'"
-           id="tspan472">
+           id="tspan536">
 </tspan></tspan><tspan
          x="60"
          y="483.9427"
-         id="tspan478"><tspan
+         id="tspan542"><tspan
            style="font-weight:bold;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Bold'"
-           id="tspan476">ctsnl.ca</tspan></tspan></text>
+           id="tspan540">ctsnl.ca</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text16072-6"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.2;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16074-3);fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="translate(-26.300112,52.099058)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.2;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16074-3);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="translate(-6.300112,52.099058)"
        x="1129.8392"
        y="0"><tspan
          x="60"
          y="437.51114"
-         id="tspan482"><tspan
+         id="tspan546"><tspan
            style="font-size:42.6667px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal'"
-           id="tspan480">{{ date }} @ {{ time }} </tspan></tspan></text>
+           id="tspan544">{{ date }} @ {{ time }} </tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text16072-6-6-5"
        style="font-style:normal;font-weight:normal;font-size:74.6667px;line-height:1.2;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16074-3-3-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="translate(-22.889446,-122.99516)"
+       transform="translate(-2.889446,-122.99516)"
        x="1129.8392"
        y="0"><tspan
          x="60"
          y="465.64448"
-         id="tspan488"><tspan
+         id="tspan552"><tspan
            style="font-weight:bold;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Bold'"
-           id="tspan484">Meetup</tspan><tspan
+           id="tspan548">Meetup</tspan><tspan
            style="font-weight:bold;font-family:'Fira Mono';-inkscape-font-specification:'Fira Mono Bold'"
-           id="tspan486">
+           id="tspan550">
 </tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text16072-6-6-5-3"
        style="font-style:normal;font-weight:normal;font-size:37.3333px;line-height:1.2;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16074-3-3-7-2);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="translate(-21.956112,-82.189722)"
+       transform="translate(-1.956112,-82.189722)"
        x="1129.8392"
        y="0"><tspan
          x="60"
          y="437.51114"
-         id="tspan492"><tspan
+         id="tspan556"><tspan
            style="font-style:italic;font-weight:500;font-size:42.6667px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Medium Italic'"
-           id="tspan490">
+           id="tspan554">
 </tspan></tspan><tspan
          x="60"
          y="488.71118"
-         id="tspan496"><tspan
+         id="tspan560"><tspan
            style="font-style:italic;font-weight:500;font-size:42.6667px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Medium Italic'"
-           id="tspan494">@ Queen Elizabeth II Library - Third Floor </tspan></tspan></text>
+           id="tspan558">@ Queen Elizabeth II Library - Third Floor </tspan></tspan></text>
   </g>
 </svg>
