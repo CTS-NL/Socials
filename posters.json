@@ -259,5 +259,37 @@
         "time": "7pm"
       }
     ]
+  },
+  "jumping_bean_meetup": {
+    "meta": {
+      "template": "./templates/jumping-bean-meetup-poster.svg"
+    },
+    "instances": [
+      {
+        "year": "",
+        "date": "Every Thursday",
+        "time": "7pm"
+      },
+      {
+        "year": "2023",
+        "date": "July 6th",
+        "time": "7pm"
+      },
+      {
+        "year": "2023",
+        "date": "July 13th",
+        "time": "7pm"
+      },
+      {
+        "year": "2023",
+        "date": "July 20th",
+        "time": "7pm"
+      },
+      {
+        "year": "2023",
+        "date": "July 27th",
+        "time": "7pm"
+      }
+    ]
   }
 }
