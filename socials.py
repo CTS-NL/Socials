@@ -86,7 +86,7 @@ def socials():
         *handle_meetup("digital-meetup", posters.digital_meetup),
         *handle_meetup("element-meetup", posters.element_meetup),
         *handle_meetup("qeii-meetup", posters.qeii_meetup),
-        *handle_meetup("jumping-bean-meetup", posters.qeii_meetup)
+        *handle_meetup("jumping-bean-meetup", posters.jumping_bean_meetup)
     ]
 
     outputs.reverse()
