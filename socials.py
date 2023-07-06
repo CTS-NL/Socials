@@ -35,6 +35,7 @@ class Posters(BaseModel):
     digital_meetup: Meetup
     element_meetup: Meetup
     qeii_meetup: Meetup
+    jumping_bean_meetup: Meetup
 
 
 class Output(BaseModel):
@@ -84,7 +85,8 @@ def socials():
     outputs = [
         *handle_meetup("digital-meetup", posters.digital_meetup),
         *handle_meetup("element-meetup", posters.element_meetup),
-        *handle_meetup("qeii-meetup", posters.qeii_meetup)
+        *handle_meetup("qeii-meetup", posters.qeii_meetup),
+        *handle_meetup("jumping-bean-meetup", posters.qeii_meetup)
     ]
 
     outputs.reverse()
