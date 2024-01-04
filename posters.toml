@@ -97,4 +97,13 @@ instances = [
   { year = "2023", date = "November 30th", time = "7pm" },
   { year = "2023", date = "December 7th", time = "7pm" },
   { year = "2023", date = "December 14th", time = "7pm" },
+  { year = "2024", date = "January 4th", time = "7pm" },
+  { year = "2024", date = "January 11th", time = "7pm" },
+  { year = "2024", date = "January 18th", time = "7pm" },
+  { year = "2024", date = "January 25th", time = "7pm" },
+  { year = "2024", date = "Feburary 1st", time = "7pm" },
+  { year = "2024", date = "Feburary 8th", time = "7pm" },
+  { year = "2024", date = "Feburary 15th", time = "7pm" },
+  { year = "2024", date = "Feburary 22nd", time = "7pm" },
+  { year = "2024", date = "Feburary 29th", time = "7pm" },
 ]
