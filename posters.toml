@@ -119,4 +119,8 @@ instances = [
   { year = "2024", date = "May 16th", time = "7pm" },
   { year = "2024", date = "May 23rd", time = "7pm" },
   { year = "2024", date = "May 30th", time = "7pm" },
+  { year = "2024", date = "June 6th", time = "7pm" },
+  { year = "2024", date = "June 13th", time = "7pm" },
+  { year = "2024", date = "June 20th", time = "7pm" },
+  { year = "2024", date = "June 27th", time = "7pm" },
 ]
